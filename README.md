@@ -1,8 +1,14 @@
 # Controle de corrida API
 
-# App de Gerenciamento Financeiro para Motoristas de Aplicativo
+# App de Gerenciamento Financeiro para Motoristas de Aplicativo (MVP)
 
 Este projeto consiste em um aplicativo que oferece funcionalidades para o controle financeiro de motoristas de aplicativo. O objetivo é fornecer uma plataforma simples, intuitiva e eficiente para o registro de receitas e despesas, além de oferecer alertas, lembretes e visualizações detalhadas de estatísticas financeiras.
+
+## Tecnologias Utilizadas
+- Backend: NestJs
+- Banco de Dados: MongoDB
+- Autenticação: JWT
+- Outras: 
 
 ## Funcionalidades
 
@@ -39,8 +45,3 @@ Este projeto consiste em um aplicativo que oferece funcionalidades para o contro
 - [ ] Exibição de gráficos de receitas e despesas ao longo do tempo (semanal, mensal, anual).
 - [ ] Implementação de filtros de período (semana, mês, ano).
 - [ ] Exibição de estatísticas por categoria de despesa.
-
-## Tecnologias Utilizadas
-- Backend: NestJs
-- Banco de Dados: MongoDB
-- Autenticação: JWT
