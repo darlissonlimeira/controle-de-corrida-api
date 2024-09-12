@@ -40,3 +40,36 @@ Este projeto consiste em um aplicativo que oferece funcionalidades para o contro
 ### Visualização de Estatísticas Financeiras
 - [ ] Criar endpoint para retornar gráficos de receitas e despesas ao longo do tempo
 - [ ] Implementar filtros de período (semana, mês, ano)
+
+
+## Configuração do projeto
+
+```bash
+$ pnpm install
+```
+
+## Compilar e executar
+
+```bash
+# development
+$ pnpm run start
+
+# watch mode
+$ pnpm run start:dev
+
+# production mode
+$ pnpm run start:prod
+```
+
+## Executar testes
+
+```bash
+# unit tests
+$ pnpm run test
+
+# e2e tests
+$ pnpm run test:e2e
+
+# test coverage
+$ pnpm run test:cov
+```
