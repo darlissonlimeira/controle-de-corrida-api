@@ -12,36 +12,31 @@ Este projeto consiste em um aplicativo que oferece funcionalidades para o contro
 
 ## Funcionalidades
 
-### 1. Cadastro e Autenticação de Usuário
-- [ ] Tela de registro de novos usuários.
-- [ ] Tela de login para usuários existentes.
-- [ ] Implementação de autenticação segura com JWT.
-- [ ] Sistema de logout e manutenção de sessão do usuário.
+### Cadastro e Autenticação de Usuário
+- [ ] Criar API para registro de novos usuários
+- [ ] Criar API para login de usuários existentes
+- [ ] Implementar autenticação segura (ex.: JWT)
 
-### 2. Tela de Registro de Receitas
-- [ ] Formulário para adicionar novas receitas (com data, valor e descrição).
-- [ ] Validação de entradas (valores numéricos, datas válidas).
-- [ ] Armazenamento de receitas no banco de dados.
-- [ ] Exibição de lista de receitas registradas pelo motorista.
+### Registro de Receitas
+- [ ] Criar API para adicionar novas receitas
+- [ ] Armazenar receitas no banco de dados
+- [ ] Criar API para listar receitas registradas
 
-### 3. Tela de Registro de Despesas
-- [ ] Formulário para adicionar novas despesas (com data, valor, descrição e categoria).
-- [ ] Validação de entradas (valores numéricos, categorias definidas).
-- [ ] Armazenamento de despesas no banco de dados.
-- [ ] Exibição de lista de despesas registradas pelo motorista.
+### Registro de Despesas
+- [ ] Criar API para adicionar novas despesas
+- [ ] Armazenar despesas no banco de dados
+- [ ] Criar API para listar despesas registradas
 
-### 4. Dashboard de Resumo Financeiro
-- [ ] Cálculo do saldo mensal (receitas - despesas).
-- [ ] Exibição de resumo mensal em tabela ou gráfico.
-- [ ] Opção para filtrar o resumo financeiro por mês/ano.
+### Dashboard de Resumo Financeiro
+- [ ] Criar API para calcular e retornar o saldo mensal (receitas - despesas)
+- [ ] Criar API para retornar o resumo mensal em formato de gráfico ou tabela
+- [ ] Implementar opção de filtragem por mês/ano
 
-### 5. Sistema de Alertas e Lembretes
-- [ ] Interface para configurar novos lembretes (com data e frequência).
-- [ ] Sistema de notificação para lembretes configurados.
-- [ ] Armazenamento de lembretes no banco de dados.
-- [ ] Exibição de lista de alertas configurados pelo motorista.
+### Sistema de Alertas e Lembretes
+- [ ] Criar API para configurar novos lembretes
+- [ ] Armazenar lembretes no banco de dados
+- [ ] Implementar sistema de notificação para lembretes
 
-### 6. Visualização de Estatísticas Financeiras
-- [ ] Exibição de gráficos de receitas e despesas ao longo do tempo (semanal, mensal, anual).
-- [ ] Implementação de filtros de período (semana, mês, ano).
-- [ ] Exibição de estatísticas por categoria de despesa.
+### Visualização de Estatísticas Financeiras
+- [ ] Criar API para retornar gráficos de receitas e despesas ao longo do tempo
+- [ ] Implementar filtros de período (semana, mês, ano)
