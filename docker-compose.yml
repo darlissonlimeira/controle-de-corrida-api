@@ -1,0 +1,19 @@
+services:
+  mongo:
+    image: mongo
+    container_name: controle-de-corrida-db
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: root
+    ports:
+      - 127.0.0.1:27017:27017
+  api:
+    build: .
+    container_name: controle-de-corrida-api
+    depends_on:
+      - mongo
+    ports:
+      - 127.0.0.1:3000:3000 
+    environment:
+      - DATABASE_URL=mongodb://root:root@mongo:27017/controle_de_corrida?authSource=admin  
+
