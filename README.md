@@ -12,6 +12,7 @@ Este projeto consiste em um aplicativo que oferece funcionalidades para o contro
 
 ## Funcionalidades
 
+<<<<<<< Updated upstream
 ### Cadastro e Autenticação de Usuário
 - [ ] Criar endpoint para registro de novos usuários
 - [ ] Criar endpoint para login de usuários existentes
@@ -41,6 +42,14 @@ Este projeto consiste em um aplicativo que oferece funcionalidades para o contro
 - [ ] Criar endpoint para retornar gráficos de receitas e despesas ao longo do tempo
 - [ ] Implementar filtros de período (semana, mês, ano)
 
+=======
+- Cadastro e Autenticação de Usuário
+- Registro e remoção de receitas
+- Registro e remoção de despesas
+- Resumo Financeiro
+- Alertas e Lembretes
+- Estatísticas Financeiras
+>>>>>>> Stashed changes
 
 ## Configuração do projeto
 
