@@ -12,35 +12,12 @@ Este projeto consiste em um aplicativo que oferece funcionalidades para o contro
 
 ## Funcionalidades
 
-### Cadastro e Autenticação de Usuário
-- [ ] Criar endpoint para registro de novos usuários
-- [ ] Criar endpoint para login de usuários existentes
-- [ ] Implementar autenticação JWT
-
-### Registro de Receitas
-- [ ] Criar endpoint para adicionar novas receitas
-- [ ] Armazenar receitas no banco de dados
-- [ ] Criar endpoint para listar receitas registradas
-
-### Registro de Despesas
-- [ ] Criar endpoint para adicionar novas despesas
-- [ ] Armazenar despesas no banco de dados
-- [ ] Criar endpoint para listar despesas registradas
-
-### Dashboard de Resumo Financeiro
-- [ ] Criar endpoint para calcular e retornar o saldo mensal (receitas - despesas)
-- [ ] Criar endpoint para retornar o resumo mensal em formato de gráfico ou tabela
-- [ ] Implementar opção de filtragem por mês/ano
-
-### Sistema de Alertas e Lembretes
-- [ ] Criar endpoint para configurar novos lembretes
-- [ ] Armazenar lembretes no banco de dados
-- [ ] Implementar sistema de notificação para lembretes
-
-### Visualização de Estatísticas Financeiras
-- [ ] Criar endpoint para retornar gráficos de receitas e despesas ao longo do tempo
-- [ ] Implementar filtros de período (semana, mês, ano)
-
+- Cadastro e Autenticação de Usuário
+- Registro de Receitas
+- Registro de Despesas
+- Resumo Financeiro
+- Alertas e Lembretes
+- Estatísticas Financeiras
 
 ## Configuração do projeto
 
